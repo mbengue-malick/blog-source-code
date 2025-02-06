@@ -9,8 +9,8 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/mombe090/blog-source-code.git
-    targetRevision: argo-pihole-extd-certmanager
+    repoURL: https://github.com/mbengue-malick/blog-source-code.git
+    targetRevision: HEAD
     path: src/argocd/infra/overlays/lab
 
   destination:
