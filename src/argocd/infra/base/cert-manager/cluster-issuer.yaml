@@ -4,10 +4,10 @@ metadata:
   name: cloudflare-acme-issuer
 spec:
   acme:
-    email: yayamombeya090@gmail.com
+    email: malickmbengue95@gmail.com
 
-    server: https://acme-v02.api.letsencrypt.org/directory
-    #server: https://acme-staging-v02.api.letsencrypt.org/directory
+    # server: https://acme-v02.api.letsencrypt.org/directory
+    server: https://acme-staging-v02.api.letsencrypt.org/directory
 
     privateKeySecretRef:
       name: cloudflare-acme-issuer-tls-key
@@ -15,10 +15,10 @@ spec:
     solvers:
       - dns01:
           cloudflare:
-            email: yayamombeya090@gmail.com
+            email: malickmbengue95@gmail.com
             apiTokenSecretRef:
               name: cloudflare-api-token #reference du secret kubernetes creer auparavent
-              key: token
+              key: api-token
         selector:
           dnsZones:
-            - 'mombesoft.com'
+            - 'wallo24.ovh'
