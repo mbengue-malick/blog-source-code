@@ -1,7 +1,7 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: blog-tutoriel-mombesoft
+  name: labodev
   namespace: contour-system
 spec:
   secretName: blog-tutoriels-tls
