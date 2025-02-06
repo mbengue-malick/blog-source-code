@@ -6,8 +6,8 @@ spec:
   acme:
     email: malickmbengue95@gmail.com
 
-    # server: https://acme-v02.api.letsencrypt.org/directory
-    server: https://acme-staging-v02.api.letsencrypt.org/directory
+    server: https://acme-v02.api.letsencrypt.org/directory
+    # server: https://acme-staging-v02.api.letsencrypt.org/directory
 
     privateKeySecretRef:
       name: cloudflare-acme-issuer-tls-key
