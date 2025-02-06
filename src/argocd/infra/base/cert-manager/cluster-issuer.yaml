@@ -21,4 +21,4 @@ spec:
               key: api-token
         selector:
           dnsZones:
-            - 'wallo24.ovh'
+            - 'labodev.arm'

@@ -8,7 +8,7 @@ spec:
   issuerRef:
     name: cloudflare-acme-issuer
     kind: ClusterIssuer
-  commonName: "*.wallo24.ovh"
+  commonName: "*.labodev.arm"
   dnsNames:
-    - "tuto.wallo24.ovh"
-    - "*.tuto.wallo24.ovh"
+    - "tuto.labodev.arm"
+    - "*.tuto.labodev.arm"

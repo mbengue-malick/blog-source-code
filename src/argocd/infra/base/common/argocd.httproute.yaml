@@ -7,7 +7,7 @@ spec:
   parentRefs:
     - name: contour-gateway-api
       namespace: contour-system
-  hostnames: ["argocd.tuto.mombesoft.com"]
+  hostnames: ["argocd.labodev.arm"]
   rules:
     - matches:
         - path:
