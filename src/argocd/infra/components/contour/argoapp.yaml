@@ -14,8 +14,8 @@ spec:
     targetRevision: 19.5.4
     path: contour
 
-  - repoURL: https://github.com/mombe090/blog-source-code.git
-    targetRevision: argo-pihole-extd-certmanager
+  - repoURL: https://github.com/mbengue-malick/blog-source-code.git
+    targetRevision: HEAD
     path: src/argocd/infra/components/contour/gateway-provider-crds
 
   destination:
