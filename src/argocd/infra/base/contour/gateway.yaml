@@ -7,11 +7,11 @@ spec:
   gatewayClassName: contour
   listeners:
     - name: http
-      hostname: "*.tuto.labodev.sn"
+      hostname: "*.tuto.malickdevops.com"
       protocol: HTTP
       port: 80
     - name: https
-      hostname: "*.tuto.labodev.sn"
+      hostname: "*.tuto.malickdevops.com"
       port: 443
       protocol: HTTPS
       tls:

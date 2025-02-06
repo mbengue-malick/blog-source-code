@@ -8,7 +8,7 @@ spec:
   issuerRef:
     name: cloudflare-acme-issuer
     kind: ClusterIssuer
-  commonName: "*.tuto.labodev.sn"
+  commonName: "*.tuto.malickdevops.com"
   dnsNames:
-    - "tuto.labodev.sn"
-    - "*.tuto.labodev.sn"
+    - "tuto.malickdevops.com"
+    - "*.tuto.malickdevops.com"

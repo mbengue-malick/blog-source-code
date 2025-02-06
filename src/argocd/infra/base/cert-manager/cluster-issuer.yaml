@@ -21,4 +21,4 @@ spec:
               key: api-token
         selector:
           dnsZones:
-            - 'labodev.sn'
+            - 'malickdevops.com'
